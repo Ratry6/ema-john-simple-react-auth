@@ -23,9 +23,17 @@ export default InitializeAuthentication;
 //1.Create Login Component
 //2.Create Register Component
 //3.Create route for login & register
-
+//--------------
 //step:3-
 //1. set up signInWithGoogle
 //2. set up Sign Out Method
 //3.use State 
 //4.special observer (onAuthChanged)
+//5.return necessary methods and states from useFirebase
+//-------------
+//step-4:
+//1.create an auth context
+//2.create context provider
+//3.set context value in AuthProvider
+//4. use auth provider
+//5.create useAuth Hook
